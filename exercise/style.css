@@ -53,6 +53,13 @@ header {
 .logo {
 	width: 35px;
 	height: 35px;
+	background-image: url(./image/logo1.png);
+	cursor: pointer;
+}
+
+.brand .logo:hover {
+	background-image: url(./image/logo2.png);
+	transition: background-image 0.3s;
 }
 
 .brand .text-brand {
@@ -250,4 +257,43 @@ main {
     font-weight: bold;
     letter-spacing: 0;
 	border: none;
+}
+
+.foot {
+	margin-bottom: 40px;
+}
+
+.foot .image{
+	width: 40px;
+}
+
+.foot .about {
+	list-style: none;
+}
+
+.foot a {
+	text-decoration: none;
+	padding-left: 30px;
+	color: #8f929e;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.copy {
+	color: #8f929e;
+    font-size: 14px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.social {
+	position: fixed;
+	right: 50px;
+    bottom: 10px;
+}
+
+.social .social-in,
+.social .social-dri {
+	width: 24px;
+	margin-bottom: 20px;
 }
