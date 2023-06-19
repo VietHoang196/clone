@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    main {
+	padding: 20px 10px;
+    }
+    
+    .sub-menu {
+        display: none;
+    }
+
+    .nav {
+        display: block;
+    }
+
+    .menu {
+        border: 0;
+        width: 22px;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .hi,
+    .info,
+    .choose,
+    .comment,
+    .message,
+    .sub-form {
+        display: inline-block;
+    }
+}
